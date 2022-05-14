@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(83, 83, 83);
+            
+        }
+        header{
+            color: rgb(7, 80, 129);
+            background-color: rgb(155, 152, 151);
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 15px;
+        }
+        h1{
+            width: max-content;
+            padding: 5px;
+            margin: 20px auto 20px auto;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+        nav{
+            background-color: rgb(97, 93, 93);
+            padding: 3px 0px 3px 20px;
+            width: fit-content;
+            font-size: 16px;
+            box-shadow: 3px 3px 5px #000000a8;
+            border-radius: 10px 15px;
+        }
+        
+        nav > a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            margin-right:20px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: rgb(47, 63, 82);
+            padding: 10px;
+            margin: 10px;
+            text-indent: 10px;
+            text-align: justify;
+            border-radius: 15px;
+        }
+        article{
+            background-color: rgb(93, 102, 107);
+            padding: 5px;
+            border-radius: 40px 50px 70px 10px;
+        }
+        article > p{
+            text-indent: 0px;
+        }
+        article > aside{
+            background-color: rgb(182, 179, 179);
+            font-style: italic;
+            font-weight: bold;
+            padding-right: 10px;
+            width: fit-content;
+            border-radius: 10px;
+        }
+        footer{
+            color: rgb(151, 211, 226);
+            font-style: italic;
+            background-color: black;
+            padding: 1px 5px 20px 5px;
+            margin: auto;
+            text-align: center;
+            height: 60px;
+            width: 200px;
+            border-radius: 10px;
+
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 20px auto 0px auto;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellat beatae porro ex qui minus suscipit, aspernatur inventore ducimus incidunt natus voluptates, architecto velit quas? A veritatis beatae reiciendis consectetur.</p>
+                <aside>Artigo escrito por Josicleiton</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Powered By #Patrocinador#</p>
+        <p>Desenvolvido por IgorAB</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo Videos</title>
+    <style>
+        body{
+            background-color: rgba(79, 117, 8, 0.781);
+        }
+    </style>
+</head>
+<body>
+    <h1>Vídeos Hospedados Localmente</h1>
+    <p>Esse video está hospedado no meu próprio servidor</p>
+    <video width="560" controls loop > <!--poster="Midia/borboleta-poster.jpg"--> 
+        <source src="Midia/borboletas.mp4" type="video/mp4">
+        <source src="Midia/Borboletas.m4v" type="video/mp4">
+        <source src="Midia/Borboletas.webm" type="video/webm">
+    </video>
+    <!--Isso pode custar uma grana pro seu patrão-->
+    <h2>Inserindo Vídeos Direto do Youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player"
+     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+      picture-in-picture" allowfullscreen></iframe>
+    <h2>Inserindo Vídeos Direto do Vimeo</h2>
+    <iframe src="https://player.vimeo.com/video/197093965?h=7fbc516b5a&loop=1&color=c9ff23&portrait=0" width="560"
+     height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
