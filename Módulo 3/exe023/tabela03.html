@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclando Células</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 300px;
+            border-collapse: collapse;
+        }
+        td{
+            border: 1px solid black;
+            padding:10px;
+            text-align: center;
+        }
+        tr.row1{
+            background-color: black;
+            color: white;
+        }
+        tr.row2{
+            background-color: gray;
+            color: white;
+        }
+        tr.row3{
+            background-color: darkblue;
+            color: white;
+        }
+        tr.row4{
+            background-color: darkgoldenrod;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de Célula</h1>
+    <table>
+        <tr class="row1">
+            <td>A</td>
+            <td colspan="2">B</td>
+            <td>C</td>
+        </tr>
+        <tr class="row2">
+            <td rowspan="3">D</td>
+            <td>E</td>
+            <td colspan="2">F</td>
+        </tr>
+        <tr class="row3">
+            <td colspan="2">G</td>
+            <td>H</td>
+        </tr>
+        <tr class="row4">
+            <td>I</td>
+            <td>J</td>
+            <td>K</td>
+        </tr>
+    </table>
+</body>
+</html>
